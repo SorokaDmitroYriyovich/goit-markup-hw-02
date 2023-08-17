@@ -4,6 +4,7 @@ body {
     background-color: #FFFFFF;
 }
 .logo {
+    color: var(--iris, #4D5AE5);
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -15,14 +16,18 @@ body {
 .studio-top-line {
     color: var(--navyblue, #2E2F42);
 }
+.link {
+    text-decoration: none;
+}
 .menu-nav {
-color: var(--navyblue, #2E2F42);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
+    list-style-type: none;
+    color: var(--navyblue, #2E2F42);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 :hover.menu-nav {
     color: #404bbf;
@@ -31,6 +36,7 @@ letter-spacing: 0.02em;
     color: #404bbf;
 }
 .adress {
+    list-style-type: none;
     color: var(--slate, #434455);
     font-family: Roboto;
     font-size: 16px;
@@ -61,7 +67,7 @@ letter-spacing: 0.02em;
 .main-page-button {
     background: var(--iris, #4D5AE5);
     color: var(--white, #FFF);
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -85,7 +91,7 @@ letter-spacing: 0.02em;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
    }
@@ -118,7 +124,7 @@ letter-spacing: 0.02em;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
