@@ -27,6 +27,7 @@ body {
     letter-spacing: 0.02em;
 }
 .link-nav {
+    color: #2E2F42;
     text-decoration: none;
 }
 :hover.link-nav {
@@ -103,9 +104,6 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
    }
-   .features-menu {
-    background-color: #FFFFFF;
-   }
 .features-list {
     background-color: #FFFFFF;
     color: var(--navyblue, #2E2F42);
@@ -128,7 +126,6 @@ body {
 }
 .our-team {
     background-color: #F4F4FD;
-    
 }
 .our-team-title {
     color: var(--navyblue, #2E2F42);
