@@ -16,9 +16,6 @@ body {
 .studio-top-line {
     color: var(--navyblue, #2E2F42);
 }
-.link {
-    text-decoration: none;
-}
 .menu-nav {
     list-style-type: none;
     color: var(--navyblue, #2E2F42);
@@ -29,14 +26,18 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-:hover.menu-nav {
+.link-nav {
+    text-decoration: none;
+}
+:hover.link-nav {
     color: #404bbf;
 }
-:focus.menu-nav {
+:focus.link-nav {
     color: #404bbf;
 }
 .adress {
     font-style: normal;
+    color: var(--slate, #434455);
 }
 .adress-list {
     list-style-type: none;
@@ -48,10 +49,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-:hover.adress-list {
+.link-adress {
+    color: var(--slate, #434455);
+    text-decoration: none;
+}
+:hover.link-adress {
     color: #404bbf;
 }
-:focus.adress-list {
+:focus.link-adress {
     color: #404bbf;
 }
 .hero-image {
