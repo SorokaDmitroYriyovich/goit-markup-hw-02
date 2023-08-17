@@ -36,6 +36,9 @@ body {
     color: #404bbf;
 }
 .adress {
+    font-style: normal;
+}
+.adress-list {
     list-style-type: none;
     color: var(--slate, #434455);
     font-family: Roboto;
@@ -45,10 +48,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-:hover.adress {
+:hover.adress-list {
     color: #404bbf;
 }
-:focus.adress {
+:focus.adress-list {
     color: #404bbf;
 }
 .hero-image {
