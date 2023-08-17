@@ -139,6 +139,7 @@ body {
     text-transform: capitalize;
 }
 .our-team-name {
+    background: var(--white, #FFFFFF);
     color: var(--navyblue, #2E2F42);
     font-family: Roboto;
     font-size: 20px;
@@ -148,6 +149,7 @@ body {
     letter-spacing: 0.02em;
 }
 .our-team-text {
+    background: var(--white, #FFFFFF);
     color: var(--slate, #434455);
     font-family: Roboto;
     font-size: 16px;
