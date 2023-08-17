@@ -103,6 +103,9 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
    }
+   .features-menu {
+    background-color: #FFFFFF;
+   }
 .features-list {
     background-color: #FFFFFF;
     color: var(--navyblue, #2E2F42);
