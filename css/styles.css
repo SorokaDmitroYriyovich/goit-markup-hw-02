@@ -3,3 +3,47 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.studio {
+    color: var(--navyblue, #2E2F42);
+}
+.menu-nav {
+display: inline-flex;
+align-items: flex-start;
+gap: 40px;
+
+color: var(--navyblue, #2E2F42);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1,5;
+letter-spacing: 0.02em;
+}
+:hover.menu-nav {
+    color: #404bbf;
+}
+:focus.menu-nav {
+    color: #404bbf;
+}
+.adress {
+    color: var(--slate, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+}
+:hover.adress {
+    color: #404bbf;
+}
+:focus.adress {
+    color: #404bbf;
