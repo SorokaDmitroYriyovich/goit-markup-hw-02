@@ -84,10 +84,10 @@ body {
     cursor: pointer;
 }
 :hover.main-page-button {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 :focus.main-page-button {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 .features {
     background: #FFFFFF;
@@ -104,6 +104,7 @@ body {
     text-transform: capitalize;
    }
 .features-list {
+    background-color: #FFFFFF;
     color: var(--navyblue, #2E2F42);
     font-family: Roboto;
     font-size: 20px;
@@ -113,6 +114,7 @@ body {
     letter-spacing: 0.02em;
 }
 .features-text {
+    background-color: #FFFFFF;
     color: var(--slate, #434455);
     font-family: Roboto;
     font-size: 16px;
