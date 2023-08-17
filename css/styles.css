@@ -63,7 +63,7 @@ body {
     background: var(--navyblue, #2E2F42);
 }
 .hero-image-text {
-    color: var(--white, #FFF);
+    color: var(--white, #FFFFFF);
     text-align: center;
     font-family: Roboto;
     font-size: 56px;
@@ -74,8 +74,8 @@ body {
 }
 .main-page-button {
     background: var(--iris, #4D5AE5);
-    color: var(--white, #FFF);
-    font-family: "Roboto", sans-serif
+    color: var(--white, #FFFFFF);
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -90,7 +90,7 @@ body {
     color: #404BBF;
 }
 .features {
-    background: #FFF;
+    background: #FFFFFF;
    }
 .features-title {
     color: var(--navyblue, #2E2F42);
