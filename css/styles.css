@@ -105,6 +105,7 @@ body {
     text-transform: capitalize;
    }
 .features-list {
+    text-decoration: none;
     background-color: #FFFFFF;
     color: var(--navyblue, #2E2F42);
     font-family: Roboto;
@@ -137,6 +138,10 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+.our-team-list {
+    text-decoration: none;
+    background: var(--white, #FFFFFF);
 }
 .our-team-name {
     background: var(--white, #FFFFFF);
